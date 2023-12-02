@@ -62,7 +62,7 @@ namespace Tyuiu.KulakovEE.Sprint6.Task0.V17
             // 
             this.pictureBoxNamedTwo_KEE.ErrorImage = null;
             this.pictureBoxNamedTwo_KEE.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxNamedTwo_KEE.Image")));
-            this.pictureBoxNamedTwo_KEE.Location = new System.Drawing.Point(508, 21);
+            this.pictureBoxNamedTwo_KEE.Location = new System.Drawing.Point(523, 21);
             this.pictureBoxNamedTwo_KEE.Name = "pictureBoxNamedTwo_KEE";
             this.pictureBoxNamedTwo_KEE.Size = new System.Drawing.Size(123, 88);
             this.pictureBoxNamedTwo_KEE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -74,7 +74,9 @@ namespace Tyuiu.KulakovEE.Sprint6.Task0.V17
             // 
             this.groupBoxNamedTwo_KEE.Controls.Add(this.textBoxNamedFour_KEE);
             this.groupBoxNamedTwo_KEE.Controls.Add(this.pictureBoxNamedTwo_KEE);
+            this.groupBoxNamedTwo_KEE.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.groupBoxNamedTwo_KEE.Font = new System.Drawing.Font("Cattedrale [RUS by penka220]", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxNamedTwo_KEE.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.groupBoxNamedTwo_KEE.Location = new System.Drawing.Point(12, 25);
             this.groupBoxNamedTwo_KEE.Name = "groupBoxNamedTwo_KEE";
             this.groupBoxNamedTwo_KEE.Size = new System.Drawing.Size(666, 184);
@@ -94,6 +96,7 @@ namespace Tyuiu.KulakovEE.Sprint6.Task0.V17
             this.textBoxNamedFour_KEE.Size = new System.Drawing.Size(345, 51);
             this.textBoxNamedFour_KEE.TabIndex = 1;
             this.textBoxNamedFour_KEE.Text = "Вычислить выражение по формуле:";
+            this.textBoxNamedFour_KEE.TextChanged += new System.EventHandler(this.textBoxNamedFour_KEE_TextChanged);
             // 
             // groupBoxNamedThree_KEE
             // 
@@ -228,8 +231,8 @@ namespace Tyuiu.KulakovEE.Sprint6.Task0.V17
         private System.Windows.Forms.Button buttonNamedThree_KEE;
         private System.Windows.Forms.TextBox nameX_KEE;
         private System.Windows.Forms.GroupBox groupBoxNamedSix_KEE;
-        private System.Windows.Forms.TextBox textBoxNamedFour_KEE;
         private System.Windows.Forms.GroupBox groupBoxNameddTwo_KEE;
         private System.Windows.Forms.TextBox Result_KEE;
+        private System.Windows.Forms.TextBox textBoxNamedFour_KEE;
     }
 }

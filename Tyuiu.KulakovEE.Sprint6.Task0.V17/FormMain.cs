@@ -59,5 +59,10 @@ namespace Tyuiu.KulakovEE.Sprint6.Task0.V17
         {
 
         }
+
+        private void textBoxNamedFour_KEE_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
